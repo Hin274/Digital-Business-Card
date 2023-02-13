@@ -16,7 +16,7 @@ a {
 .wrapper{
     background-color:#F5F5F5; 
     margin: 10% auto;
-    width: 50%;
+    width: 35%;
     border-radius: 10px;
 }
 
@@ -44,6 +44,7 @@ a {
 .bg-footer i{ 
     font-size: 2rem;
     padding: 10px 5px;
+    color: #918E9B;
 }
 
 .heading{ 

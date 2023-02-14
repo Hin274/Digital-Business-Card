@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+text-decoration:underline;
+}
+
 .wrapper{
     background-color:#F5F5F5; 
     margin: 10% auto;
@@ -59,16 +63,24 @@ button{
     width: 8rem;
     padding: 10px;
     border-radius: 5px;
-    border: 1px #D1D5DB solid;
+    border: 1px solid #D1D5DB ;
     background-color: #FFFFFF;
+    cursor: pointer;
+    transition: 300ms;
 }
 
 button i{
     padding-right:10px; 
 }
 
+button:hover{
+    opacity: 60%;
+    border: 1px #F47D27 solid;
+}
+
 .button--blue{
     background-color: #297FE5;
+    border: 1px solid #297FE5;
     color: #FFFFFF;
 }
 
